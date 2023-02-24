@@ -7,12 +7,12 @@ public class task3 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input a first number: ");
         int firstNum = sc.nextInt();
-        
+        System.out.println("Input an math action: ");
+        String act = sc.next();
         System.out.println("Input a second number: ");
         int secNum = sc.nextInt();
 
-        System.out.println("Input an math action: ");
-        String act = sc.nextLine();
+        
 
         
         sc.close();
